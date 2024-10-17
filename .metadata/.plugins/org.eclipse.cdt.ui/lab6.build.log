@@ -1,0 +1,25 @@
+
+**** Build of configuration Debug for project lab6 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab6_linkInfo.xml" --rom_model -o "lab6.out" "./Timer.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./resetSimulation.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined                first referenced             
+  symbol                      in file                  
+ ---------                ----------------             
+ uart_receive_nonblocking ./lab6-interrupt_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'lab6.out' failed
+gmake[1]: *** [lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

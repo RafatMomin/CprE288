@@ -1,0 +1,35 @@
+
+**** Build of configuration Debug for project Lab3Check ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288Workspace/Lab3Check" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 33: warning #2170-D: use of a const variable in a constant expression is nonstandard in C
+"../main.c", line 76: warning #118-D: non-void function "main" should return a value
+"../main.c", line 151: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 152: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 153: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 154: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 157: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 158: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 160: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 161: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 163: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 164: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 166: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 167: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 187: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 193: warning #226-D: the format string requires additional arguments
+"../main.c", line 197: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 198: warning #169-D: argument of type "char *" is incompatible with parameter of type "const char"
+"../main.c", line 204: error #148: declaration is incompatible with "void uart_sendString(const char)" (declared at line 29)
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

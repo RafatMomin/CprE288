@@ -1,0 +1,58 @@
+
+**** Build of configuration Debug for project lab7_1 ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288Workspace/lab7_1" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Timer.obj' failed
+"../Timer.c", line 11: fatal error #1965: cannot open source file "Lab7 Code Files/Timer.h"
+1 catastrophic error detected in the compilation of "../Timer.c".
+Compilation terminated.
+gmake: *** [Timer.obj] Error 1
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288Workspace/lab7_1" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lcd.obj' failed
+"../lcd.c", line 12: fatal error #1965: cannot open source file "Lab7 Code Files/lcd.h"
+1 catastrophic error detected in the compilation of "../lcd.c".
+Compilation terminated.
+gmake: *** [lcd.obj] Error 1
+Building file: "../lab7_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288Workspace/lab7_1" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_template.d_raw"  "../lab7_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab7_template.obj' failed
+"..\open_interface.h", line 23: fatal error #1965: cannot open source file "Lab7 Code Files/lcd.h"
+1 catastrophic error detected in the compilation of "../lab7_template.c".
+Compilation terminated.
+gmake: *** [lab7_template.obj] Error 1
+Building file: "../open_interface.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288Workspace/lab7_1" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="open_interface.d_raw"  "../open_interface.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'open_interface.obj' failed
+"../open_interface.c", line 18: fatal error #1965: cannot open source file "Lab7_1 Code Files/open_interface.h"
+1 catastrophic error detected in the compilation of "../open_interface.c".
+Compilation terminated.
+gmake: *** [open_interface.obj] Error 1
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="U:/CprE288Workspace/lab7_1" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'movement.obj' failed
+"..\open_interface.h", line 23: fatal error #1965: cannot open source file "Lab7 Code Files/lcd.h"
+1 catastrophic error detected in the compilation of "../movement.c".
+Compilation terminated.
+gmake: *** [movement.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
